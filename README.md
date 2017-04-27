@@ -4,6 +4,9 @@ Volumetric Light implementation based on Frostbite's "Physically-based & Unified
 
 It is currently not finished. Implementation is currently ongoing.
 
+Current situation:
+![alt text](https://raw.githubusercontent.com/ucanbizon/volumelight/master/volumelight.png)
+
 Required dependencies:
 
 GLFW
