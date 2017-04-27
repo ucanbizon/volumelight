@@ -18,6 +18,8 @@ uniform mat4 invProjection;
 #define STEPLEN  0.1
 #define G_SCATTERING 0.3
 #define PI 3.14159265358979
+#define NUM_SAMPLES 128
+#define NUM_SAMPLES_RCP 0.0078125
 
 float ShadowCalculation(vec4 fragPosLightSpace, vec3 Normal, vec3 FragPos)
 {

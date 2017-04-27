@@ -20,48 +20,48 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="..\Util\Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="..\Util\Mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mesh.h">
+    <ClInclude Include="..\Util\Model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Model.h">
+    <ClInclude Include="..\Util\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic_lighting.frag">
+    <None Include="..\Shaders\basic_lighting.frag">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="basic_lighting.vert">
+    <None Include="..\Shaders\basic_lighting.vert">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="quad.vert">
+    <None Include="..\Shaders\gbuffer.frag">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="occlude.vert">
+    <None Include="..\Shaders\gbuffer.vert">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="quad.frag">
+    <None Include="..\Shaders\occlude.frag">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="occlude.frag">
+    <None Include="..\Shaders\occlude.vert">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="gbuffer.frag">
+    <None Include="..\Shaders\quad.frag">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="gbuffer.vert">
+    <None Include="..\Shaders\quad.vert">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="shadow_mapping_depth.vert">
+    <None Include="..\Shaders\shadow_mapping_depth.frag">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="shadow_mapping_depth.frag">
+    <None Include="..\Shaders\shadow_mapping_depth.vert">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

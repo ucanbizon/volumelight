@@ -152,22 +152,22 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="Shader.h" />
+    <ClInclude Include="..\Util\Camera.h" />
+    <ClInclude Include="..\Util\Mesh.h" />
+    <ClInclude Include="..\Util\Model.h" />
+    <ClInclude Include="..\Util\Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic_lighting.frag" />
-    <None Include="basic_lighting.vert" />
-    <None Include="gbuffer.frag" />
-    <None Include="gbuffer.vert" />
-    <None Include="occlude.frag" />
-    <None Include="occlude.vert" />
-    <None Include="quad.frag" />
-    <None Include="quad.vert" />
-    <None Include="shadow_mapping_depth.frag" />
-    <None Include="shadow_mapping_depth.vert" />
+    <None Include="..\Shaders\basic_lighting.frag" />
+    <None Include="..\Shaders\basic_lighting.vert" />
+    <None Include="..\Shaders\gbuffer.frag" />
+    <None Include="..\Shaders\gbuffer.vert" />
+    <None Include="..\Shaders\occlude.frag" />
+    <None Include="..\Shaders\occlude.vert" />
+    <None Include="..\Shaders\quad.frag" />
+    <None Include="..\Shaders\quad.vert" />
+    <None Include="..\Shaders\shadow_mapping_depth.frag" />
+    <None Include="..\Shaders\shadow_mapping_depth.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
